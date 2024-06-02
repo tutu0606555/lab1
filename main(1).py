@@ -187,10 +187,10 @@ if __name__ == '__main__':
     #     for edge,weight in node.outgoing_edges.items():
     #         print(f" - {edge.label}:{weight}")
 
-    showDirectedGraph(nodes)
-    #queryBridgeWords('new',"and",nodes)
-    # inputText = "Seek to explore new and exciting synergies"
+    #showDirectedGraph(nodes)
+    #queryBridgeWords('book',"without",nodes)
+    # inputText = "Alice beginning,sister reading,"
     # generateNewText(inputText,nodes)
     #Path_dictionary = calcShortest_path(nodes, 'To')
-    #Path_dictionary = calcShortest_path(nodes,'To','and')
-    #randomWalk(nodes)
+    #Path_dictionary = calcShortest_path(nodes,'bank','pleasure')
+    randomWalk(nodes)
