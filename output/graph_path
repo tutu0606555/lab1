@@ -186,4 +186,8 @@ digraph {
 	ran -> close [label=1 color=black]
 	close [label=close]
 	close -> by [label=1 color=black]
+	bank -> and [color=red]
+	and -> picking [color=red]
+	picking -> the [color=red]
+	the -> pleasure [color=red]
 }
