@@ -46,10 +46,10 @@ def queryBridgeWords(word1,word2,graph):
         if word2 == word:
             node2 = node
     if node1 == None:
-        print("no such a word as",word1)
+        #print("no such a word as",word1)
         flag = 1
     if node2 == None:
-        print("no such a word as",word2)
+        #print("no such a word as",word2)
         flag = 1
     if flag == 1:
         return None
@@ -189,8 +189,8 @@ if __name__ == '__main__':
 
     #showDirectedGraph(nodes)
     #queryBridgeWords('book',"without",nodes)
-    # inputText = "Alice beginning,sister reading,"
-    # generateNewText(inputText,nodes)
+    inputText = "To out"
+    generateNewText(inputText,nodes)
     #Path_dictionary = calcShortest_path(nodes, 'To')
     #Path_dictionary = calcShortest_path(nodes,'bank','pleasure')
-    randomWalk(nodes)
+    #randomWalk(nodes)
